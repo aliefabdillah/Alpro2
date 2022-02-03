@@ -1,0 +1,19 @@
+TAMBAH tabel_nama BR009 Yupi 12;
+TAMBAH tabel_beli BR009 500 4;
+TAMBAH tabel_nama BR008 Molto 30;
+TAMBAH tabel_nama BR010;
+TAMBAH tabel_nama BR010 Whiskas 10 Bawang 13;
+
+TAMBAH GANTI tabel_nama BR010 Whiskas 10;
+GANTI tabel_nama BR009 Pulsa 50;
+GANTI tabel_beli BR009;
+GANTI tabel_beli BR009 15000 3 10000 1;
+GANTI tabel_nama BR011 Bawang 10;
+
+HAPUS tabel_nama BR010;
+HAPUS tabel_beli;
+
+TAMPIL tabel_nama;
+TAMPIL tabel_beli;
+
+STOP;

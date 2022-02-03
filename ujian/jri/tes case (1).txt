@@ -1,0 +1,32 @@
+SUCCESFULLY QUERY
+
+SELECT tTahsin;
+SELECT tTahfidz;
+
+INSERT tTahsin 30THS09 zaky ust_nurdin;
+INSERT tTahfidz 30TDZ09 aziz syech_salim;
+
+UPDATE tTahsin 30THS05 jalu ust_abdul;
+UPDATE tTahfidz 30TDZ04 humam syech_salim;
+
+DELETE tTahsin 30THS09 zaky ust_nurdin;
+DELETE tTahfidz 30TDZ09 aziz syech_salim;
+
+INSERT UPDATE tTahsin 30THS05 jalu ust_sholeh;
+INSERT UPDATE tTahfidz 30TDZ04 humam habib_muhammad;
+
+UNSUCCESFULLY QUERY
+
+INSER tTahfidz 30TDZ09 aziz syech_salim; //salah query command
+
+UPDATE tTahss 30THS05 jalu ust_abdul; //salah nama tabel
+
+INSERT tTahsin 30THS05 jalu hafizhul ust_abdul; //kebanyakan masukan
+
+INSERT tTahfidz 30TDZ09 ust_abdul; //kekurangan masukan
+
+DELETE tTahsin 30THS20 aziz ust_nurdin; //salah primary kebanyakan
+
+INSERT tTahfidz 30TDZ01 kukuh syech_abdulloh; //data sudah tersedia
+
+
